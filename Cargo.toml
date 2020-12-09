@@ -1,0 +1,11 @@
+[package]
+name = "iqs"
+version = "0.1.0"
+authors = ["Sergio Sánchez Ramírez <15837247+mofeing@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num = "0.3"
+smallvec = {version="1.5", features=["const_generics"]}
