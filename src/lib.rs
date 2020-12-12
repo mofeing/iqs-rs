@@ -1,5 +1,6 @@
 #![feature(min_const_generics)]
 
-mod matrix;
-mod operator;
+pub mod kernel;
+pub mod operator;
 mod register;
+pub use register::*;

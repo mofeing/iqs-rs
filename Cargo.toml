@@ -9,3 +9,13 @@ edition = "2018"
 [dependencies]
 num = "0.3"
 smallvec = {version="1.5", features=["const_generics"]}
+rayon = "1.5"
+itertools = "0.9"
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "kernel-single"
+harness = false
+path = "benchmark/kernel/single.rs"
